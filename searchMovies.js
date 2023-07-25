@@ -22,7 +22,7 @@ export default function SearchMovies(){
     }
     
     return (
-        <>
+        <div>
             <form className="form" onSubmit={searchMovies}>
                 <label className="label" htmlFor="query">Movie Name</label>
                 <input className="input" type="text" name="query"
@@ -48,6 +48,6 @@ export default function SearchMovies(){
                     </div>
                 ))}
             </div>    
-        </>
+        </div>
     )
 }
